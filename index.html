@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container py-4">
+    <input id="searchInput" class="form-control mb-2" type="text" name="searchInput" placeholder="search..." />
+    <div class="row" id="searchRow"></div>
+  </div>
+  <div class="container py-3 border border-dark mb-5 rounded">
+    <div class="form-group">
+      <label>productName :</label>
+      <input id="productName" class="form-control" type="text" name="productName" value="">
+    </div>
+    <div class="form-group">
+      <label>productPrice :</label>
+      <input id="productPrice" class="form-control" type="number" name="productPrice" value="">
+    </div>
+    <div class="form-group">
+      <label>productCompany :</label>
+      <input id="productCompany" class="form-control" type="text" name="productCompany" value="">
+    </div>
+    <div class="form-group">
+      <label>productDescription :</label>
+      <textarea id="productDesc" class="form-control" name="productDesc" value=""></textarea>
+    </div>
+
+    <button id="addBtn" type="button" name="button" class="btn btn-info float-right">Add product</button>
+    <div class="clearfix"></div>
+  </div>
+  <div class="container text-center">
+    <div class="row" id="rowData"></div>
+  </div>
+
+
+  <script src="js/all.min.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

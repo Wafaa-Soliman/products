@@ -1,0 +1,40 @@
+body{
+  font-family: 'segoe ui light';
+}
+.item{
+  background-color: orange;
+  position: relative;
+}
+.item-caption{
+  width: 80%;
+  background-color: #FFF;
+  padding: 10px;
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+}
+.lightbox-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none !important;
+}
+.lightbox-item{
+  width: 60%;
+  height: 500px;
+  background-color: #018;
+  position: relative;
+  background-image: url(../images/high6.jpeg);
+  background-size: 100% 100%;
+}
+#Wclose{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.show{
+  display: flex !important;
+}
